@@ -1,0 +1,5 @@
+127.0.0.1 - - [15/Oct/2022:22:34:15 +0800] "GET /vue-demo HTTP/1.1" 302 - http-bio-8080-exec-1 0
+127.0.0.1 - - [15/Oct/2022:22:34:15 +0800] "GET /vue-demo/ HTTP/1.1" 404 969 http-bio-8080-exec-2 19
+127.0.0.1 - - [15/Oct/2022:22:34:16 +0800] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8080-exec-3 0
+127.0.0.1 - - [15/Oct/2022:22:34:20 +0800] "GET /vue-demo/01-vue-demo1.html HTTP/1.1" 200 584 http-bio-8080-exec-4 2
+127.0.0.1 - - [15/Oct/2022:22:34:20 +0800] "GET /vue-demo/js/vue.js HTTP/1.1" 200 341462 http-bio-8080-exec-5 4
