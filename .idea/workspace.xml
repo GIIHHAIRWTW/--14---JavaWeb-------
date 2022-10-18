@@ -35,7 +35,8 @@
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "D:/Github/--14---JavaWeb-------",
     "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)"
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm"
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [
@@ -108,7 +109,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1666100906806</updated>
-      <workItem from="1666100908315" duration="524000" />
+      <workItem from="1666100908315" duration="1875000" />
     </task>
     <servers />
   </component>
