@@ -17,9 +17,9 @@
             <dataSource type="POOLED">
                 <!--数据库连接信息-->
                 <property name="driver" value="com.mysql.jdbc.Driver"/>
-                <property name="url" value="jdbc:mysql:///mybatis?useSSL=false"/>
+                <property name="url" value="jdbc:mysql:///db1?useSSL=false"/>
                 <property name="username" value="root"/>
-                <property name="password" value="1234"/>
+                <property name="password" value="whoami"/>
             </dataSource>
         </environment>
 
@@ -28,9 +28,9 @@
             <dataSource type="POOLED">
                 <!--数据库连接信息-->
                 <property name="driver" value="com.mysql.jdbc.Driver"/>
-                <property name="url" value="jdbc:mysql:///mybatis?useSSL=false"/>
+                <property name="url" value="jdbc:mysql:///db1?useSSL=false"/>
                 <property name="username" value="root"/>
-                <property name="password" value="1234"/>
+                <property name="password" value="whoami"/>
             </dataSource>
         </environment>
     </environments>
