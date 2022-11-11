@@ -45,8 +45,8 @@ public interface UserMapper {
             map.put("agr1",参数值2)
 
      */
-    User select(@Param("username") String username,String password);
-    User select(Collection collection);
+    User select(String username,String password);
+    //User select(Collection collection);
 
 
 

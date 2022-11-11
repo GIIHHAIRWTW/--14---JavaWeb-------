@@ -10,8 +10,6 @@ import org.junit.Test;
 
 import java.io.IOException;
 import java.io.InputStream;
-import java.sql.Connection;
-import java.sql.PreparedStatement;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -71,13 +69,10 @@ public class MyBatisTest {
     @Test
     public void testSelectByCondition() throws IOException {
         //接收参数
-        int status = 1;
         String companyName = "华为";
-        String brandName = "华为";
 
         // 处理参数
         companyName = "%" + companyName + "%";
-        brandName = "%" + brandName + "%";
 
         //封装对象
        /* Brand brand = new Brand();
@@ -117,13 +112,10 @@ public class MyBatisTest {
     @Test
     public void testSelectByConditionSingle() throws IOException {
         //接收参数
-        int status = 1;
         String companyName = "华为";
-        String brandName = "华为";
 
         // 处理参数
         companyName = "%" + companyName + "%";
-        brandName = "%" + brandName + "%";
 
         //封装对象
         Brand brand = new Brand();
@@ -248,10 +240,6 @@ public class MyBatisTest {
     public void testUpdate() throws IOException {
         //接收参数
         int status = 0;
-        String companyName = "波导手机";
-        String brandName = "波导";
-        String description = "波导手机,手机中的战斗机";
-        int ordered = 200;
         int id = 6;
 
 
